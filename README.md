@@ -1,5 +1,7 @@
 # Peepchat
 
+[![travis build](https://travis-ci.org/antonioyee/peepchat-api.svg?branch=master)](https://travis-ci.org/antonioyee/peepchat-api)
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
