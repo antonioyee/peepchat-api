@@ -32,7 +32,7 @@ config :guardian, Guardian,
   issuer: "Peepchat",
   ttl: { 30, :days },
   verify_issuer: true,
-  secrect_key: System.get_env("GUARDIAN_SECRET") || "Q/PNBpCWO6RLHGwG2j2uCMkZhwGHQlvPcsorApip3wV+Et2IjFRLSqtDdrEFcQp0",
+  secrect_key: System.get_env("GUARDIAN_SECRET") || "Ee6TtOf682GaLmg4a6VAYsJhSIcrDrHq5CtUgSoFqJCCsrbxqeW55bjgrqDn4ZF3",
   serializer: Peepchat.GuardianSerializer
 
 # Import environment specific config. This must remain at the bottom
