@@ -19,6 +19,6 @@ defmodule Peepchat.UserController do
     |> Guardian.Plug.current_resource
 
     conn
-    |> render(Peepchat.UserView, "show.json", data: user)
+    |> render(Peepchat.UserView, "show.json", user: user)
   end
 end
